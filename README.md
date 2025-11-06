@@ -2,6 +2,10 @@
 
 A Python script to convert videos to HD (1080p) or 2K (1440p) using FFmpeg in WSL2.
 
+## Disclaimer
+
+This code is "vibe coded" - it's a casual, hackable script written for personal use. Not intended for production, may have bugs, and is meant to be forked and customized.
+
 ## Design for WSL2
 
 This script is tailored for WSL2 environments to process video files stored on Windows drives. It accesses Windows files via mounted paths like `/mnt/d/`, allowing seamless conversion of large video libraries without moving files.
